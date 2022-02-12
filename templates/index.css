@@ -1,36 +1,50 @@
-body {
-    background-image: linear-gradient(to right, #A4DBE8 , white)
-}
+body {background-color: #A4DBE8;}
 
 .name {
-    font-family: Bradley Hand; 
+    top: 20%;
+    /* font-family: Futura; */
     color: rgb(0, 0, 0);
-    text-align: center;
+    position: relative;
+    display: block!important;
+    display: inline;
 }
+
 
 .container {
+    height: 330px;
+    border-radius: 25px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -165px 0 0 -250px;
     text-align: center;
+    background-color: white;
+    /* border: 3px solid black; */
+    align-items: center;
 }
 
-
-/* CSS */
+/* Login button */
 .login {
+    border-radius: 0;
+    top: 30%;
+    position: relative;
     align-items: center;
-    background-color: #0A66C2;
+    background-color: #A4DBE8;
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
     color: #ffffff;
     cursor: pointer;
-    display: inline-flex;
+    display: inline;
     font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     justify-content: center;
     line-height: 20px;
     max-width: 480px;
-    min-height: 40px;
-    min-width: 0px;
+    min-height: 50px;
+    min-width: 150px;
     overflow: hidden;
     padding: 0px;
     padding-left: 20px;
