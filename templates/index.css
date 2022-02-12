@@ -2,7 +2,6 @@ body {background-color: #A4DBE8;}
 
 .name {
     top: 20%;
-    /* font-family: Futura; */
     color: rgb(0, 0, 0);
     position: relative;
     display: block!important;
@@ -20,14 +19,13 @@ body {background-color: #A4DBE8;}
     margin: -165px 0 0 -250px;
     text-align: center;
     background-color: white;
-    /* border: 3px solid black; */
     align-items: center;
 }
 
 /* Login button */
 .login {
     border-radius: 0;
-    top: 30%;
+    top: 7rem;
     position: relative;
     align-items: center;
     background-color: #A4DBE8;
